@@ -1,29 +1,27 @@
-
 @media screen and (max-width: 600px) {
-  .bg-illustration.mobile{
+  .bg-illustration.mobile {
     display: block;
   }
 
-  .bg-illustration.desktop{
+  .bg-illustration.desktop {
     display: none;
   }
 
-  .card{
+  .card {
     width: 325px;
-    margin-top: 72px;   
-    
+    margin-top: 72px;
   }
 
-  .card .content{   
-   padding: 32px 25px;
+  .card .content {
+    padding: 32px 25px;
   }
 
-  .card header h1{
+  .card header h1 {
     font-size: 22px;
     line-height: 29px;
   }
 
-  button.proceed{
+  button.proceed {
     margin-top: 35px;
   }
 }

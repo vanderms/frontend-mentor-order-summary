@@ -8,7 +8,6 @@
   --dark-blue: hsl(223, 47%, 23%);
 }
 
-
 *,
 *::before,
 *::after {
@@ -18,80 +17,80 @@
   margin: 0px;
 }
 
-body{
+body {
   background-color: var(--pale-blue);
 }
 
-.bg-illustration{
+.bg-illustration {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
-  height: auto;  
+  height: auto;
 }
 
-.bg-illustration.mobile{
+.bg-illustration.mobile {
   display: none;
 }
 
 .card {
   position: relative;
   z-index: 1;
-  width: 450px; 
+  width: 450px;
   margin: 102px auto 0px auto;
   border-radius: 20px;
   overflow: hidden;
-  background-color: white;  
+  background-color: white;
 }
 
-.card .thumbnail{
+.card .thumbnail {
   width: 100%;
   height: auto;
 }
 
-.card .content{
+.card .content {
   padding: 46px 50px 56px 50px;
 }
 
-.card header{  
-  text-align: center;  
+.card header {
+  text-align: center;
 }
 
-.card header h1{
+.card header h1 {
   font-size: 28px;
   line-height: 37px;
   color: var(--dark-blue);
 }
 
-.card header p{
+.card header p {
   font-size: 16px;
   line-height: 27px;
   color: var(--desaturated-blue);
   margin-top: 15px;
 }
 
-.card .plan-details{
+.card .plan-details {
   display: grid;
   grid-template-columns: auto 1fr auto;
   gap: 20px;
   margin-top: 42px;
 }
 
-.card .plan-details .plan-data{
+.card .plan-details .plan-data {
   display: grid;
   grid-template-columns: auto;
 }
 
-.plan-data .plan{
+.plan-data .plan {
   font-weight: 700;
   color: var(--dark-blue);
 }
 
-.plan-data .price{
+.plan-data .price {
   color: var(--desaturated-blue);
 }
 
-.plan-details .change{
+.plan-details .change {
   color: var(--bright-blue);
   text-decoration: underline;
   border: none;
@@ -100,7 +99,7 @@ body{
   cursor: pointer;
 }
 
-button.proceed{
+button.proceed {
   background-color: var(--bright-blue);
   width: 100%;
   text-align: center;
@@ -113,7 +112,7 @@ button.proceed{
   border-radius: 12px;
 }
 
-button.cancel{
+button.cancel {
   background-color: inherit;
   border: none;
   color: var(--desaturated-blue);
@@ -123,11 +122,11 @@ button.cancel{
   cursor: pointer;
 }
 
-main{
+main {
   min-height: 100vh;
 }
 
-.attribution{
+.attribution {
   margin-top: 100px;
   text-align: center;
 }
