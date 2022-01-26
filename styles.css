@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: var(--pale-blue);
+}
+
+.bg-illustration{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;  
+}
+
+.bg-illustration.mobile{
+  display: none;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  width: 450px; 
+  margin: 102px auto 0px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;  
+}
+
+.card .thumbnail{
+  width: 100%;
+  height: auto;
+}
+
+.card .content{
+  padding: 46px 50px 56px 50px;
+}
+
+.card header{  
+  text-align: center;  
+}
+
+.card header h1{
+  font-size: 28px;
+  line-height: 37px;
+  color: var(--dark-blue);
+}
+
+.card header p{
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--desaturated-blue);
+  margin-top: 15px;
+}
+
+.card .plan-details{
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 20px;
+  margin-top: 42px;
+}
+
+.card .plan-details .plan-data{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.plan-data .plan{
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.plan-data .price{
+  color: var(--desaturated-blue);
+}
+
+.plan-details .change{
+  color: var(--bright-blue);
+  text-decoration: underline;
+  border: none;
+  background-color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.proceed{
+  background-color: var(--bright-blue);
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  margin-top: 52px;
+  padding: 16px 0px;
+  border-radius: 12px;
+}
+
+button.cancel{
+  background-color: inherit;
+  border: none;
+  color: var(--desaturated-blue);
+  font-weight: 700;
+  margin: 30px auto 0px auto;
+  display: block;
+  cursor: pointer;
+}
+
+main{
+  min-height: 100vh;
+}
+
+.attribution{
+  margin-top: 100px;
+  text-align: center;
+}
